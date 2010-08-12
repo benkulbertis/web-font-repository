@@ -37,8 +37,7 @@ as if they were web safe fonts. It has a built in http refferer authentication s
         src: local('☺'), url('http://repository-location/?file=font-dir/font-file.woff') format('woff'), url('http://repository-location/?file=font-dir/font-file.ttf') format('truetype'), url('http://repository-location/?file=font-dir/font-file.svg#the-svg-id') format('svg');
         font-weight: normal;
         font-style: normal;
-      }</code>
-   </pre>
+      }</code></pre>
 </li>
   <li>Edit in the correct information to the @font-face declaration, changing the "font-family" name, the "repository-location" for each, the "font-dir" for each, the "font-file" for each, and the svg id at the end of the svg url.</li>
   <li>Use your new font!</li>
