@@ -22,7 +22,7 @@ as if they were web safe fonts. It has a built in http refferer authentication s
   6. Open font-face.css and run a find and replace all with your text editor, replacing "http://example.com/" with your domain, be sure it begins with "http://" and has a trailing slash.
   7. Add `<link rel="stylesheet" href="http://**repository-location**/?file=font-face.css" type="text/css" />` to all the allowed domains.
   8. Use any of the fonts in the repository freely on any of the allowed sites as if they were web safe, they will work automatically. No need for any more @font-face declarations!
-  9. Optionally change the look of the default.html page or remove line 41 from index.php. This exists so that if someone visits the repository location without a `$_GET['file']`, they will see something other than a white screen.
+  9. Optionally change the look of the default.html page or remove line 41 from index.php. This exists so that if someone visits the repository location without a `?file=*` at the end, they will see something other than a white screen.
 
 ## Adding More Fonts:
 
@@ -30,13 +30,13 @@ as if they were web safe fonts. It has a built in http refferer authentication s
   2. Place the font files in the folder, optimally a .woff, .ttf, .eot, and .svg.
   3. Open the font-face.css file and add the following:
 	
-	@font-face {
-	  font-family: 'Font-Name';
-	  src: url('http://repository-location/?file=font-dir/font-file.eot');
-	  src: local('☺'), url('http://repository-location/?file=font-dir/font-file.woff') format('woff'), url('http://repository-location/?file=font-dir/font-file.ttf') format('truetype'), url('http://repository-location/?file=font-dir/font-file.svg#the-svg-id') format('svg');
-	  font-weight: normal;
-	  font-style: normal;
-	}
+    @font-face {
+    font-family: 'Font-Name';
+    src: url('http://repository-location/?file=font-dir/font-file.eot');
+    src: local('☺'), url('http://repository-location/?file=font-dir/font-file.woff') format('woff'), url('http://repository-location/?file=font-dir/font-file.ttf') format('truetype'), url('http://repository-location/?file=font-dir/font-file.svg#the-svg-id') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
 
   4. Edit in the correct information to the @font-face declaration, changing the "font-family" name, the "repository-location" for each, the "font-dir" for each, the "font-file" for each, and the svg id at the end of the svg url.
   5. Use your new font!
