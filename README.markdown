@@ -43,7 +43,7 @@ as if they were web safe fonts. It has a built in http refferer authentication s
 
 ## Attribution:
 
-Some code is borrowed from "[How To Prevent Hotlinking With PHP](http://safalra.com/programming/php/prevent-hotlinking/)" for the domain authentication.
+Some of the authentication system code comes from "[How To Prevent Hotlinking With PHP](http://safalra.com/programming/php/prevent-hotlinking/)" by Stephen Morley.
 
 ## More Help/Questions:
 
