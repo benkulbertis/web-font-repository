@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'Lobster1.3Regular';
+	src: url('http://example.com/?file=Lobster/Lobster_1.3-webfont.eot');
+	src: local('☺'), url('http://example.com/?file=Lobster/Lobster_1.3-webfont.woff') format('woff'), url('http://example.com/?file=Lobster/Lobster_1.3-webfont.ttf') format('truetype'), url('http://example.com/?file=Lobster/Lobster_1.3-webfont.svg#webfontcOtP3oQb') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MolengoRegular';
+	src: url('http://example.com/?file=Molengo/Molengo-Regular-webfont.eot');
+	src: local('☺'), url('http://example.com/?file=Molengo/Molengo-Regular-webfont.woff') format('woff'), url('http://example.com/?file=Molengo/Molengo-Regular-webfont.ttf') format('truetype'), url('http://example.com/?file=Molengo/Molengo-Regular-webfont.svg#webfontQJMgyz3x') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+  font-family: 'Yanone Kaffesatz';
+  src: url('http://example.com/?file=Yanone Kaffesatz Light/yanonekaffesatz-webfont.eot');
+  src: local('☺'),
+         url('http://example.com/?file=Yanone Kaffesatz Light/yanonekaffesatz-webfont.woff') format('woff'), url('http://example.com/?file=Yanone Kaffesatz Light/yanonekaffesatz-webfont.ttf') format('truetype'), url('http://example.com/?file=Yanone Kaffesatz Light/yanonekaffesatz-webfont.svg#webfont') format('svg');
+}
