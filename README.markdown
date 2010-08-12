@@ -3,9 +3,7 @@
 
 ## License:
 
-Copyright 2010, Ben Kulbertis
-
-Dual licensed under MIT or GPL Version 2.0
+Dual licensed under MIT or GPL Version 2.0 by Ben Kulbertis
 
 ## Description:
 
