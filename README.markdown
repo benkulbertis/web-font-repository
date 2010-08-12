@@ -30,14 +30,15 @@ as if they were web safe fonts. It has a built in http refferer authentication s
   <li>Create a folder called the font name in the "secret directory" previously called "fonts".</li>
   <li>Place the font files in the folder, optimally a .woff, .ttf, .eot, and .svg.</li>
   <li>Open the font-face.css file and add the following:
-	
-    @font-face {
-      font-family: 'Font-Name';
-      src: url('http://repository-location/?file=font-dir/font-file.eot');
-      src: local('☺'), url('http://repository-location/?file=font-dir/font-file.woff') format('woff'), url('http://repository-location/?file=font-dir/font-file.ttf') format('truetype'), url('http://repository-location/?file=font-dir/font-file.svg#the-svg-id') format('svg');
-      font-weight: normal;
-      font-style: normal;
-    }
+   <pre>
+<code>@font-face {
+        font-family: 'Font-Name';
+        src: url('http://repository-location/?file=font-dir/font-file.eot');
+        src: local('☺'), url('http://repository-location/?file=font-dir/font-file.woff') format('woff'), url('http://repository-location/?file=font-dir/font-file.ttf') format('truetype'), url('http://repository-location/?file=font-dir/font-file.svg#the-svg-id') format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }</code>
+   </pre>
 </li>
   <li>Edit in the correct information to the @font-face declaration, changing the "font-family" name, the "repository-location" for each, the "font-dir" for each, the "font-file" for each, and the svg id at the end of the svg url.</li>
   <li>Use your new font!</li>
