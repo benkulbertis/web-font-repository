@@ -9,7 +9,6 @@ if ((!$file=realpath($dir.$_GET['file']))
   exit();
 }
 $ref=$_SERVER['HTTP_REFERER'];
-echo $ref;
 if (
 // List sites in the format below, no limit to amount of sites
 strpos($ref,'http://example.com/')===0 ||
