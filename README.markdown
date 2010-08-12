@@ -25,7 +25,7 @@ as if they were web safe fonts. It has a built in http refferer authentication s
   9. Optionally change the look of the default.html page or remove line 41 from index.php. This exists so that if someone visits the repository location without a `$_GET['file']`, they will see something other than a white screen.
 
 ## Adding More Fonts:
-<ul>
+
   1. Create a folder called the font name in the "secret directory" previously called "fonts".
   2. Place the font files in the folder, optimally a .woff, .ttf, .eot, and .svg.
   3. Open the font-face.css file and add the following:
@@ -40,7 +40,7 @@ as if they were web safe fonts. It has a built in http refferer authentication s
 
   4. Edit in the correct information to the @font-face declaration, changing the "font-family" name, the "repository-location" for each, the "font-dir" for each, the "font-file" for each, and the svg id at the end of the svg url.
   5. Use your new font!
-</ul>
+
 ## Attribution:
 
 Some code is borrowed from "[How To Prevent Hotlinking With PHP](http://safalra.com/programming/php/prevent-hotlinking/)" for the domain authentication.
