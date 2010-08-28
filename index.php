@@ -46,7 +46,7 @@ if(isset($_GET['file'])) { // Checks if there is a file defined to be grabbed fr
     );
     $stat = stat($file);
     // Create some headers
-    header('Access-Control-Allow-Origin: *'); // Tells Apache to chill out and allow font files to be used over multiple domains
+    header('Access-Control-Allow-Origin: *');
     header('Content-Type: '.$mime[substr($file,-3)]);
     header('Content-Length: '.$stat[7]);
     header('Last-Modified: '.gmdate('D, d M Y H:i:s',$stat[9]).' GMT');
