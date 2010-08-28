@@ -20,7 +20,7 @@ as if they were web safe fonts. It has a built in http refferer authentication s
   6. Open font-face.css and run a find and replace all with your text editor, replacing "http://example.com/" with your domain, be sure it begins with "http://" and has a trailing slash.
   7. Add `<link rel="stylesheet" href="http://**repository-location**/?file=font-face.css" type="text/css" />` to all the allowed domains.
   8. Use any of the fonts in the repository freely on any of the allowed sites as if they were web safe, they will work automatically. No need for any more @font-face declarations!
-  9. Optionally change the look of the default.html page or remove line 41 from index.php. This exists so that if someone visits the repository location without a `?file=*` at the end, they will see something other than a white screen.
+  9. Optionally change the look of the default.html page or remove the last line from index.php. This exists so that if someone visits the repository location without a `?file=*` at the end, they will see something other than a white screen.
 
 ## Adding More Fonts:
 
