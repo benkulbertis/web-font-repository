@@ -16,7 +16,7 @@ as if they were web safe fonts. It has a built in http refferer authentication s
   2. Upload the "fonts" directory as well as the index.php, default.html, and whitelist.txt files.
   3. Rename the "fonts" directory to something difficult to guess, you don't have to remember it so make it gibberish.
   4. Open index.php and change "fonts" on line 3 to the same thing you just renamed the fonts directory to.
-  5. Open whitelist.txt and add each domain that you want to allow to use the fonts in the repisitory to a new line.
+  5. Open whitelist.txt and add each domain that you want to allow to use the fonts in the repository to a new line.
   6. Open font-face.css and run a find and replace all with your text editor, replacing "http://example.com/" with your domain, be sure it begins with "http://" and has a trailing slash.
   7. Add `<link rel="stylesheet" href="http://**repository-location**/?file=font-face.css" type="text/css" />` to all the allowed domains.
   8. Use any of the fonts in the repository freely on any of the allowed sites as if they were web safe, they will work automatically. No need for any more @font-face declarations!
